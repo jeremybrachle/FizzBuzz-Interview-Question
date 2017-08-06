@@ -1,5 +1,5 @@
 //FizzBuzz Interview Question
-//
+
 //Description: print every number from 1 to 100, but for every multiple of 3
 //      print "Fizz", for every multiple of 5 print "Buzz", and if the number is
 //      a multiple of both 3 and 5, print "FizzBuzz". This solution will be make the
