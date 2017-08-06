@@ -1,13 +1,9 @@
+//FizzBuzz Interview Question
 //
-//  main.cpp
-//  FizzBuzz Interview Question
-//  Description: print every number from 1 to 100, but for every multiple of 3
+//Description: print every number from 1 to 100, but for every multiple of 3
 //      print "Fizz", for every multiple of 5 print "Buzz", and if the number is
 //      a multiple of both 3 and 5, print "FizzBuzz". This solution will be make the
 //      problem easy to change in case the requirements need to be changed futher down the road.
-//  Created by Jeremy Brachle on 8/6/17.
-//  Copyright © 2017 Jeremy Brachle. All rights reserved.
-//
 
 //include the iostream for input/output
 #include <iostream>
