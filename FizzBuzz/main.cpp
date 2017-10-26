@@ -1,9 +1,9 @@
 //FizzBuzz Interview Question
 
-//Description: print every number from 1 to 100, but for every multiple of 3
-//      print "Fizz", for every multiple of 5 print "Buzz", and if the number is
-//      a multiple of both 3 and 5, print "FizzBuzz". This solution will be make the
-//      problem easy to change in case the requirements need to be changed futher down the road.
+//Description: print every number from 1 to 100 inclusive, but for every multiple of 3
+//print "Fizz", for every multiple of 5 print "Buzz", and if the number is a multiple
+//of both 3 and 5, print "FizzBuzz". This solution will make the problem easy to change
+//in case the requirements need to be changed futher down the road.
 
 //include the iostream for input/output
 #include <iostream>
@@ -62,8 +62,8 @@ void changeableFizzBuzz()
 }
 
 //summary: in case the requirements change and the program should print "Buzz" if the number
-//  is a multiple of 6 instead of 5, then only one number needs to be changed. Also, if another
-//  message needs to be printed for a third number, then only one extra line of code is needed
+//is a multiple of 6 instead of 5, then only one number needs to be changed. Also, if another
+//message needs to be printed for a third number, then only one extra line of code is needed
 
 //now here is the normal implementation of the fizz-buz program which is not as easy to change
 void normalFizzBuzz()
