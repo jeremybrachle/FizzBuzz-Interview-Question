@@ -3,7 +3,9 @@
 //Description: print every number from 1 to 100 inclusive, but for every multiple of 3
 //print "Fizz", for every multiple of 5 print "Buzz", and if the number is a multiple
 //of both 3 and 5, print "FizzBuzz". This solution will make the problem easy to change
-//in case the requirements need to be changed futher down the road.
+//in case the requirements need to be changed futher down the road. This supports the
+//open-closed principle from SOLID object oriented design. The program is open for
+//extension but closed for modification.
 
 //include the iostream for input/output
 #include <iostream>
